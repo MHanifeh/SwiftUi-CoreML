@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4C8E66892ACD73C1002F09CA /* CatDogImageClassifire.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 4C8E66882ACD73C1002F09CA /* CatDogImageClassifire.mlmodel */; };
 		4CEFA7512A37C67300EB4DF4 /* Cat_Vs_Dog_CoreMl_App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CEFA7502A37C67300EB4DF4 /* Cat_Vs_Dog_CoreMl_App.swift */; };
 		4CEFA7532A37C67300EB4DF4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CEFA7522A37C67300EB4DF4 /* ContentView.swift */; };
 		4CEFA7552A37C67400EB4DF4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4CEFA7542A37C67400EB4DF4 /* Assets.xcassets */; };
@@ -14,6 +15,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4C8E66882ACD73C1002F09CA /* CatDogImageClassifire.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = CatDogImageClassifire.mlmodel; sourceTree = "<group>"; };
 		4CEFA74D2A37C67300EB4DF4 /* Cat-Vs-Dog(CoreMl).app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Cat-Vs-Dog(CoreMl).app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4CEFA7502A37C67300EB4DF4 /* Cat_Vs_Dog_CoreMl_App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cat_Vs_Dog_CoreMl_App.swift; sourceTree = "<group>"; };
 		4CEFA7522A37C67300EB4DF4 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -53,6 +55,7 @@
 			children = (
 				4CEFA7502A37C67300EB4DF4 /* Cat_Vs_Dog_CoreMl_App.swift */,
 				4CEFA7522A37C67300EB4DF4 /* ContentView.swift */,
+				4C8E66882ACD73C1002F09CA /* CatDogImageClassifire.mlmodel */,
 				4CEFA7542A37C67400EB4DF4 /* Assets.xcassets */,
 				4CEFA7562A37C67400EB4DF4 /* Preview Content */,
 			);
@@ -95,7 +98,7 @@
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1430;
-				LastUpgradeCheck = 1430;
+				LastUpgradeCheck = 1500;
 				TargetAttributes = {
 					4CEFA74C2A37C67300EB4DF4 = {
 						CreatedOnToolsVersion = 14.3.1;
@@ -137,6 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4C8E66892ACD73C1002F09CA /* CatDogImageClassifire.mlmodel in Sources */,
 				4CEFA7532A37C67300EB4DF4 /* ContentView.swift in Sources */,
 				4CEFA7512A37C67300EB4DF4 /* Cat_Vs_Dog_CoreMl_App.swift in Sources */,
 			);
@@ -181,6 +185,7 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -241,6 +246,7 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
