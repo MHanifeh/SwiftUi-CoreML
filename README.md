@@ -1,7 +1,7 @@
 # SwiftUi-CoreML
-Machine Learning CoreMl (Compare dog and cat)
+Machine Learning CoreMl (distinguish dog and cat)
 
-i used mashine learning in swiftui to predict between dog and cat 
+I utilized machine learning to distinguish between cats and dogs.
 
 You can find ressource bleow here :
 
